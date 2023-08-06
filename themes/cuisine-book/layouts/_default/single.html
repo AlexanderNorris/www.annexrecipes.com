@@ -1,0 +1,69 @@
+{{ define "main" }} {{ $baseUrl := .Site.BaseURL }}
+<div class="section">
+  <article class="container box">
+    <header>
+      <div class="columns is-flex is-vcentered">
+        <div class="column is-2 p-5">
+          {{ if .Params.featured_image }}
+          <figure class="image is-1by1">
+            {{ with .Resources.GetMatch .Params.featured_image }}
+            <img alt="{{ .Name }}" class="is-rounded" src="{{ .Permalink }}" />
+            {{ else }}
+            <img
+              alt="{{ .Params.featured_image }}"
+              class="is-rounded"
+              src="{{ .Params.featured_image | relURL }}"
+            />
+            {{ end }}
+          </figure>
+          {{ end }}
+        </div>
+        <div class="column">
+          <h1 class="title is-1">{{ .Title }}</h1>
+          {{ if .GitInfo }} {{ with .GitInfo.AuthorName }}
+          <h5 class="is-5 has-text-info">{{ . }}</h5>
+          {{ end }} {{ end }} {{ with .Params.website }}
+          <h5 class="is-5 has-text-link">
+            <a href="{{ . }}">{{ . }}</a>
+          </h5>
+          {{ end }} {{ if .Params.description }}
+          <h5 class="is-5">{{ .Params.description }}</h5>
+          {{ end }}
+          <span>
+            {{ $rating := 0 }} {{ if and (isset .Params "rating") (le
+            .Params.rating 5) }} {{ $rating = .Params.rating }} {{ end }} {{
+            range $i := (seq $rating) }}
+            <i class="fas fa-star has-text-warning"></i>
+            {{ end }} {{ range $i := (seq (sub 5 $rating)) }}
+            <i class="fas fa-star"></i>
+            {{ end }}
+          </span>
+        </div>
+      </div>
+      <div style="margin-top: 1em">
+        {{ range .Params.Tags }}
+        <a class="tag is-primary is-light" href="{{ $baseUrl }}/tags/{{ . }}"
+          >{{ . }}</a
+        >
+        {{ end }}
+      </div>
+    </header>
+    <div class="content" style="margin-top: 1em">{{ .Content }}</div>
+{{ if and .Site.Params.repo .Site.Params.newpath }}
+    <div class="columns">
+      <div class="column"></div>
+      <div class="column is-narrow">
+        <a href="{{ .Site.Params.repo }}/{{ .Site.Params.editpath }}/{{ .Site.Params.contentDir | default "content" }}/{{ replace .File.Path "\\" "/" }}">
+          <button class="button">
+            <span class="icon is-small"><i class="fa fa-pen"></i></span>
+          </button>
+        </a>
+      </div>
+    </div>
+{{ end }}
+  </article>
+</div>
+{{- if or (eq .Params.comment true) (and (ne .Params.comment false) (eq
+site.Params.comment true)) -}}
+<section class="container">{{- partial "comments.html" . -}}</section>
+{{- end -}} {{ end }}

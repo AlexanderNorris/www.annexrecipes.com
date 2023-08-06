@@ -1,0 +1,52 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column">
+        {{- partial "search.html" . -}}
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column">
+        <div style="margin-bottom: 1em;">
+          {{ range .Site.Taxonomies.tags }}
+          <a class="tag is-primary is-light" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+          {{ end }}
+        </div>
+      </div>
+{{ if and .Site.Params.repo .Site.Params.newpath }}
+      <div class="column is-narrow">
+        <a href="{{ .Site.Params.repo }}/{{ .Site.Params.newpath }}/{{ .Site.Params.contentDir | default "content" }}">
+          <button class="button">
+            <span class="icon is-small"><i class="fa fa-plus"></i></span>
+          </button>
+        </a>
+      </div>
+{{ end }}
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column">
+        {{ range $index, $page := .Site.RegularPages }}
+          {{ if eq (mod $index 4) 0 }}{{ partial "box.html" $page }}{{ end }}
+        {{ end }}
+      </div>
+      <div class="column">
+        {{ range $index, $page := .Site.RegularPages }}
+          {{ if eq (mod $index 4) 1 }}{{ partial "box.html" $page }}{{ end }}
+        {{ end }}
+      </div>
+      <div class="column">
+        {{ range $index, $page := .Site.RegularPages }}
+          {{ if eq (mod $index 4) 2 }}{{ partial "box.html" $page }}{{ end }}
+        {{ end }}
+      </div>
+      <div class="column">
+        {{ range $index, $page := .Site.RegularPages }}
+          {{ if eq (mod $index 4) 3 }}{{ partial "box.html" $page }}{{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

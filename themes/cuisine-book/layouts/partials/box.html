@@ -1,0 +1,43 @@
+{{ $baseUrl := .Site.BaseURL }}
+<a class="box" href="{{ .Permalink }}" aria-label="{{ .Title }}">
+  <div class="columns is-flex is-vcentered">
+    <div class="column is-one-quarter">
+      {{ if .Params.featured_image }}
+      <figure class="is-flex image is-1by1">
+        {{ with .Resources.GetMatch .Params.featured_image }}
+        <img alt="{{ .Name }}" class="is-rounded" src="{{ .RelPermalink }}" />
+        {{ else }}
+        <img
+          alt="{{ .Params.featured_image }}"
+          class="is-rounded"
+          src="{{ .Params.featured_image | relURL }}" />
+        {{ end }}
+      </figure>
+      {{ end }}
+    </div>
+    <div class="column">
+      <div>{{ .Title }}</div>
+      {{ if .GitInfo }} {{ with .GitInfo.AuthorName }}
+      <small><p class="has-text-info">{{ . }}</p></small>
+      {{ end }} {{ end }}
+      <span>
+
+      </span>
+    </div>
+  </div>
+  <div class="columns is-flex">
+    <div class="column">
+      {{ if .Params.description }}
+      <small class="has-text-grey">{{ .Params.description }}</small>
+      {{ end }}
+      <small class="has-text-grey">{{ .Summary }}</small>
+    </div>
+  </div>
+  <div class="columns is-flex">
+    <div class="column">
+      {{ range .Params.Tags }}
+      <span class="tag is-primary is-light">{{ . }}</span>
+      {{ end }}
+    </div>
+  </div>
+</a>
