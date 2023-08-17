@@ -1,10 +1,10 @@
 +++
 title = "Aubergine Parmigana"
 date = 2023-01-09T20:54:19Z
-tags = ["aubergine", "parmigiano reggiano", "mozzarella"]
+tags = ["aubergine", "parmigiano reggiano", "mozzarella", "vegetarian"]
 featured_image = ""
 description = "Aubergine Parmigana"
-summary = "Aubergine Parmigana"
+summary = "A hearty veggie dish with plenty of cheese"
 time = "50m"
 portions = "4"
 +++
