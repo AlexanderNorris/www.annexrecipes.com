@@ -3,8 +3,8 @@ title = "Olive Bread"
 date = 2023-08-17T21:56:00Z
 tags = ["bread", "olives", "rosemary"]
 featured_image = ""
-description = "cast iron olive bread"
-summary = "olive bread"
+description = "Cast iron olive bread"
+summary = ""
 time = "4.5hrs"
 portions = "1"
 +++
