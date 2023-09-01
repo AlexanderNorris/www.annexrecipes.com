@@ -4,7 +4,7 @@ date = 2023-08-17T21:56:00Z
 tags = ["bread", "olives", "rosemary"]
 featured_image = ""
 description = "Cast iron olive bread"
-summary = ""
+summary = "Cast iron olive bread"
 time = "4.5hrs"
 portions = "1"
 +++
