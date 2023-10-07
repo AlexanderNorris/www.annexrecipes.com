@@ -1,7 +1,7 @@
 +++
 title = "Baked Feta Pasta"
 date = 2023-01-09T20:54:19Z
-tags = ["vegetarian", "feta", tomatoes", "pasta"]
+tags = ["vegetarian", "feta", "tomatoes", "pasta"]
 featured_image = ""
 summary = "Tomato and feta pasta bake"
 time = "45m"
@@ -12,7 +12,7 @@ portions = "4"
 - 330g cherry tomatoes (at least)
 - 1 block of Feta
 - 2 shallots, quartered
-- 4 cloves of garlic (at least)
+- 4 cloves of garlic
 - ~4 tbsp Olive oil 
 - 1/4 tsp of chilli flakes (optional)
 - 1 tsp dried thyme (oregano or italian seasoning also work well) 
