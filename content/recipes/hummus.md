@@ -16,7 +16,7 @@ portions = "4"
 - 4 tbsp Olive oil (add more if needed)
 - 0.5 tsp Black pepper
 - 1tsp Salt (add more if needed)
-- a pinch of Cumin (more if desired)
+- a pinch of Cummin (more if desired)
 - Optional additions; 2 tbsp pickled jalapeno, 1-2 tsp smoked paprika
 - Optional toppings; pomagranite seeds, jalapeno slices, roasted chickpeas
 
