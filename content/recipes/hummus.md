@@ -11,7 +11,7 @@ portions = "4"
 ## Ingredients
 - 1 can of Chickpeas
 - 2 tbsp Tahini
-- 1 Clove of garlic
+- 1 clove of Garlic
 - 2 tbsp Lemon juice
 - 4 tbsp Olive oil (add more if needed)
 - 0.5 tsp Black pepper
