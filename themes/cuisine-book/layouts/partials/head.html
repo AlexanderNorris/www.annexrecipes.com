@@ -30,4 +30,13 @@
   <script defer src="{{ $baseUrl }}/js/flexsearch.min.js"></script>
   <script defer src="{{ $searchJS.RelPermalink }}" {{ template "integrity"
     $searchJS }}></script>
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSQLPH02G2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WSQLPH02G2');
+  </script>
 </head>
