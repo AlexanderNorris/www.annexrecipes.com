@@ -1,9 +1,9 @@
 +++
 title = "Mushroom & Spinach Risotto"
 date = 2023-01-09T20:54:19Z
-tags = ["vegetarian", "risotto", "spinach", "mushroom"]
+tags = ["vegetarian", "risotto", "spinach", "mushroom", "sundried tomatoes"]
 featured_image = ""
-summary = ""
+summary = "Risotto with sundried tomatoes, spinach, and mushrooms"
 time = "1hr"
 portions = "4"
 +++
