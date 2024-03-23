@@ -3,7 +3,7 @@ title = "Primavera Risotto"
 date = 2023-01-09T20:54:19Z
 tags = ["vegetarian", "risotto", "spring vegetables"]
 featured_image = ""
-summary = "Primavera risotto"
+summary = "Simple risotto with peas and broad beans"
 time = "1hr"
 portions = "4"
 +++
