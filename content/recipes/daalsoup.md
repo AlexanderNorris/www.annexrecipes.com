@@ -10,13 +10,13 @@ portions = "4"
 +++
 
 ## Ingredients
-- 1.5 cups of red lentils
-- 3 cups of vegetable stock
+- 1.5 cups (~315g) red lentils
+- 3 cups (~680ml) vegetable stock
 - 1 tablespoon coconut oil
 - 1 teaspoon cumin seeds
 - 0.5 teaspoon black mustard seeds
 - 1 hot green chilli - finely chopped, discard seeds
-- 0.5 cup onion - finely diced
+- 1 small onion - finely diced
 - 1 teaspoon ginger root - finely diced
 - 1 teaspoon ground coriander
 - 0.5 teaspoon turmeric
