@@ -1,8 +1,8 @@
 +++
-title = "Greek Chicken Bowl"
+title = "Greek Chicken"
 date = 2023-01-09T20:54:19Z
-tags = ["mediterranean", "chicken", "olives", "greek", "feta", "oregano"]
-featured_image = ""
+tags = ["mediterranean", "chicken", "olives", "greek", "feta", "oregano", "rice"]
+featured_image = "greek-chicken.jpg"
 summary = "Greek chicken with salad and rice"
 time = "40mins"
 portions = "2"
@@ -10,7 +10,7 @@ portions = "2"
 
 ## Ingredients
 ### Chicken Marinade
-- 2 Chicken breasts
+- 2 Chicken breasts (or thighs)
 - 3 tbsp lemon juice 
 - 1 tbsp white wine vinegar
 - 2 tbsp oregano
@@ -18,14 +18,14 @@ portions = "2"
 - 1/2 tsp thyme
 - 1 tsp salt
 - 1/2 tsp black pepper
-- Olive oil (for frying the chicken)
+- oil (for frying the chicken)
 
 ### Tomato & Cucumber Salad, & Rice
 - 1/2 Cucumber, diced 
 - 2 Large Tomatoes, diced
 - 150g Kalamata olives, halved
 - 1/4 red onion, diced
-- Feta
+- Feta, crumbled
 - 1 tbsp olive oil
 - 2 tbsp white wine vinegar
 - 1 tsp oregano
