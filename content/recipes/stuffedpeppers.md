@@ -2,7 +2,7 @@
 title = "Chili Relleno (aka Stuffed Peppers)"
 date = 2023-01-09T20:54:19Z
 tags = ["vegetarian", "black beans", "rancheros  sauce", "chilli", "peppers"]
-featured_image = stuffed-peppers.jpg 
+featured_image = "stuffed-peppers.jpg "
 summary = "Stuffed peppers with coriander & lime rice"
 time = "1hr 30m"
 portions = "2"
