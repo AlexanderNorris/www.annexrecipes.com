@@ -2,7 +2,7 @@
 title = "Chili Relleno (aka Stuffed Peppers)"
 date = 2023-01-09T20:54:19Z
 tags = ["vegetarian", "black beans", "rancheros  sauce", "chilli", "peppers"]
-featured_image = ""
+featured_image = stuffed-peppers.jpg 
 summary = "Stuffed peppers with coriander & lime rice"
 time = "1hr 30m"
 portions = "2"
@@ -10,20 +10,20 @@ portions = "2"
 
 ## Ingredients
 ### Stuffed Peppers
-- 2 large peppers (poblano or sweet pointed peppers)
+- 2 large peppers (poblano or bell peppers)
 - 1/2 can of Black beans, drained
 - 1 tsp ground Cumin
 - 0.5 tsp chilli powder
 - ~50g cheddar (or Mexican queso fresco), grated
+- 2 tbsp Olive oil
 
 ### Rancheros Sauce
-- 2 medium tomatoes, halved
+- 2-4 medium tomatoes, halved
 - 1 jalapeno, halved
 - 4 cloves of garlic, peeled
 - 1 red onion, cut into wedges
 - 1 tsp salt
 - 0.5 tsp black pepper
-- 2 tbsp Olive oil
 - 2 tsp ground Cumin
 - 1 tsp ground Coriander
 - 1 tsp chilli powder 
@@ -36,7 +36,7 @@ portions = "2"
 - 1 small onion, diced
 - 3 cloves of garlic, crushed
 - 1 cup of rice
-- 1.5 tp salt (to taste)
+- 1 tsp salt (to taste)
 - 1 tbsp ground coriander
 - 1 lime, zest and juice
 - 1.5 cups of water or veg stock
