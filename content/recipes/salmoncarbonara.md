@@ -2,7 +2,7 @@
 title = "Salmon Carbonara"
 date = 2023-01-09T20:54:19Z
 tags = ["pasta", "fish", "creamy", "quick"]
-featured_image = ""
+featured_image = "salmon-carbonara.jpg"
 summary = "Creamy salmon 'carbonara'"
 time = "15m"
 portions = "2"
